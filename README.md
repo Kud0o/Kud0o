@@ -5,6 +5,8 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=kud0o&label=Profile%20views&color=0e75b6&style=flat" alt="kud0o" /> </p>
 
+<p><img align="right" src="https://github.com/Adam-pw/Adam-pw/blob/main/animation_500_kxa883sd.gif" alt="adam-pw" /></p>
+
 
 - 🔭 I’m currently working on **E-Invoices Integration with Government System**
 
@@ -16,7 +18,6 @@
 
 - 📄 Know about my experiences [My Resume](https://drive.google.com/file/d/1VAGJxn8pUv1835NQ8yWxu7qmZi1enr5V/view?usp=sharing).
 
-<p><img align="right" src="https://github.com/Adam-pw/Adam-pw/blob/main/animation_500_kxa883sd.gif" alt="adam-pw" /></p>
 
 
 <h3 align="left">Connect with me:</h3>
