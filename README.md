@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=kud0o&label=Profile%20views&color=0e75b6&style=flat" alt="kud0o" /> </p>
 
-<p><img align="right" padding="20" src="https://github.com/Adam-pw/Adam-pw/blob/main/animation_500_kxa883sd.gif" alt="adam-pw" /></p>
+<p padding="20" ><img align="right" src="https://github.com/Adam-pw/Adam-pw/blob/main/animation_500_kxa883sd.gif" alt="adam-pw" /></p>
 
  
 - 🔭 I’m currently working on **E-Invoices Integration with Government System**
