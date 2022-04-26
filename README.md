@@ -1,7 +1,7 @@
 <h1 align="center">Hi , I'm Mahmoud Helmy <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 <p align="center"><a href="https://github.com/Kud0o/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Software+Engineer;Computer+Science+Graduate;Competitive+Programmer;DS%20|%20Algorithms%20|%20OOP%20;Always%20learning%20new%20things&center=true&width=500&height=50"></a></p>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=kud0o&label=Profile%20views&color=0e75b6&style=flat" alt="kud0o" /> </p>
+<p align="left"></br><img src="https://komarev.com/ghpvc/?username=kud0o&label=Profile%20views&color=0e75b6&style=flat" alt="kud0o" /> </p>
 
 <p padding="20" ><img align="right" src="https://github.com/Adam-pw/Adam-pw/blob/main/animation_500_kxa883sd.gif" alt="adam-pw" /></p>
 
