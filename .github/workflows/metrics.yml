@@ -63,6 +63,10 @@ jobs:
           filename: metrics.calendar.light.svg
           config_timezone: Africa/Cairo
           config_display: large
+          extras_css: |
+            /* plane on the right, streak figures on the left */
+            div.row { flex-direction: row-reverse; }
+            section > svg[version="1.1"] { transform: translateX(467px); }
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
@@ -83,6 +87,9 @@ jobs:
             svg { color: #c9d1d9; }
             h1, h2, h3 { color: #58a6ff; }
             small, .field small { color: #8b949e; }
+            /* plane on the right, streak figures on the left */
+            div.row { flex-direction: row-reverse; }
+            section > svg[version="1.1"] { transform: translateX(467px); }
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
