@@ -96,11 +96,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- languages.light.svg languages.dark.svg; then
+          # stage first: git diff alone cannot see a file that is still untracked,
+          # which silently skipped the very first run
+          git add languages.light.svg languages.dark.svg
+          if git diff --cached --quiet; then
             echo "No language changes"
             exit 0
           fi
-          git add languages.light.svg languages.dark.svg
           git commit -m "Update language cards [skip ci]"
           git pull --rebase origin ${{ github.ref_name }}
           git push origin HEAD:${{ github.ref_name }}
@@ -125,11 +127,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- snake.light.svg snake.dark.svg; then
+          # stage first: git diff alone cannot see a file that is still untracked,
+          # which silently skipped the very first run
+          git add snake.light.svg snake.dark.svg
+          if git diff --cached --quiet; then
             echo "No snake changes"
             exit 0
           fi
-          git add snake.light.svg snake.dark.svg
           git commit -m "Update contribution snake [skip ci]"
           git pull --rebase origin ${{ github.ref_name }}
           git push origin HEAD:${{ github.ref_name }}
