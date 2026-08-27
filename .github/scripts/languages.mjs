@@ -72,11 +72,11 @@ for (const slice of slices) {
   console.log(`  ${slice.name.padEnd(14)} ${percent(slice.size).toFixed(2).padStart(6)}%`);
 }
 
-function render({ text, muted, background }) {
-  const barY = 46;
-  const barH = 10;
+function render({ text, muted, background, border }) {
   const pad = 16;
   const barW = WIDTH - pad * 2;
+  const barY = 56;
+  const barH = 8;
 
   let x = pad;
   const bar = slices.map((slice) => {
@@ -86,28 +86,25 @@ function render({ text, muted, background }) {
     return rect;
   }).join("");
 
-  // two columns of legend entries
   const colW = barW / 2;
-  const rowH = 22;
-  const legendY = barY + barH + 22;
+  const rowH = 20;
+  const legendY = barY + barH + 24;
   const legend = slices.map((slice, i) => {
-    const col = i % 2;
-    const row = Math.floor(i / 2);
-    const lx = pad + col * colW;
-    const ly = legendY + row * rowH;
-    return `<circle cx="${lx + 5}" cy="${ly - 4}" r="5" fill="${slice.color}"/>` +
-      `<text x="${lx + 16}" y="${ly}" fill="${text}" font-size="12">${escape(slice.name)}</text>` +
-      `<text x="${lx + colW - 34}" y="${ly}" fill="${muted}" font-size="12">${percent(slice.size).toFixed(1)}%</text>`;
+    const lx = pad + (i % 2) * colW;
+    const ly = legendY + Math.floor(i / 2) * rowH;
+    return `<circle cx="${lx + 5}" cy="${ly - 4}" r="4.5" fill="${slice.color}"/>` +
+      `<text x="${lx + 17}" y="${ly}" fill="${text}" font-size="12">${escape(slice.name)}</text>` +
+      `<text x="${lx + colW - 40}" y="${ly}" fill="${muted}" font-size="12">${percent(slice.size).toFixed(1)}%</text>`;
   }).join("");
 
   const rows = Math.ceil(slices.length / 2);
-  const height = legendY + rows * rowH + 8;
+  const height = legendY + rows * rowH + 6;
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${WIDTH}" height="${height}" viewBox="0 0 ${WIDTH} ${height}" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">
-  <rect width="${WIDTH}" height="${height}" rx="6" fill="${background}" stroke="${muted}" stroke-opacity="0.3"/>
-  <text x="${pad}" y="26" fill="${text}" font-size="15" font-weight="600">Most used languages</text>
-  <text x="${pad}" y="${barY - 6}" fill="${muted}" font-size="11">across ${repositories.totalCount} public repositories</text>
-  <clipPath id="round"><rect x="${pad}" y="${barY}" width="${barW}" height="${barH}" rx="5"/></clipPath>
+  <rect x="0.5" y="0.5" width="${WIDTH - 1}" height="${height - 1}" rx="6" fill="${background}" stroke="${border}"/>
+  <text x="${pad}" y="28" fill="${text}" font-size="14" font-weight="600">Most used languages</text>
+  <text x="${pad}" y="45" fill="${muted}" font-size="11">across ${repositories.totalCount} public repositories</text>
+  <clipPath id="round"><rect x="${pad}" y="${barY}" width="${barW}" height="${barH}" rx="4"/></clipPath>
   <g clip-path="url(#round)">${bar}</g>
   ${legend}
 </svg>
@@ -115,6 +112,6 @@ function render({ text, muted, background }) {
 }
 
 const { writeFileSync } = await import("node:fs");
-writeFileSync("languages.light.svg", render({ text: "#1f2328", muted: "#59636e", background: "#ffffff" }));
-writeFileSync("languages.dark.svg", render({ text: "#e6edf3", muted: "#8b949e", background: "#0d1117" }));
+writeFileSync("languages.light.svg", render({ text: "#1f2328", muted: "#59636e", background: "#ffffff", border: "#d1d9e0" }));
+writeFileSync("languages.dark.svg", render({ text: "#e6edf3", muted: "#8b949e", background: "#0d1117", border: "#3d444d" }));
 console.log("wrote languages.light.svg and languages.dark.svg");
