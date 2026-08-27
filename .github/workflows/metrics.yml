@@ -28,6 +28,10 @@ jobs:
           committer_branch: ${{ github.ref_name }}
           filename: metrics.light.svg
           config_timezone: Africa/Cairo
+          # hide the header's "Followed by N user" row (second field in the
+          # header's left column)
+          extras_css: |
+            .row > section:first-of-type > div.field:nth-of-type(2) { display: none; }
           base: header
 
       - name: Stats (dark)
@@ -45,6 +49,7 @@ jobs:
             svg { color: #c9d1d9; }
             h1, h2, h3 { color: #58a6ff; }
             small, .field small { color: #8b949e; }
+            .row > section:first-of-type > div.field:nth-of-type(2) { display: none; }
           base: header
 
       - name: Contribution calendar (light)
