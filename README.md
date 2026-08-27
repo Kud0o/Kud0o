@@ -28,12 +28,6 @@
 
 ## About
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/coding-dark.gif">
-  <source media="(prefers-color-scheme: light)" srcset="assets/coding-light.gif">
-  <img align="right" width="300" alt="Developer at a desk" src="assets/coding-light.gif">
-</picture>
-
 Senior Software Engineer with a computer science background and a competitive programming habit. I work across mobile (Flutter/Dart), backend and enterprise integration (.NET, C#, MSSQL), and Python — and I spend most of my side-project time building developer tooling for AI coding agents.
 
 - 🔭 **Currently building** — developer tooling for AI coding agents: usage/cost instrumentation and multi-agent delegation workflows.
