@@ -1,0 +1,87 @@
+name: Metrics
+
+# Generates the profile SVGs and commits them into this repository, so the README
+# is served entirely from GitHub and cannot break when a third-party card service
+# pauses its deployment or runs out of quota.
+
+on:
+  schedule:
+    - cron: "0 3 * * *"      # daily, 03:00 UTC
+  workflow_dispatch:          # run on demand from the Actions tab
+  push:
+    branches: [main, test-metrics]   # TODO: drop test-metrics before merging
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    # Steps run sequentially on purpose: each one commits to main, and parallel
+    # jobs would race on the push.
+    steps:
+      - name: Stats (light)
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          user: Kud0o
+          committer_branch: ${{ github.ref_name }}
+          filename: metrics.light.svg
+          config_timezone: Africa/Cairo
+          base: header, repositories
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_details: percentage
+          plugin_languages_sections: most-used
+
+      - name: Stats (dark)
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          user: Kud0o
+          committer_branch: ${{ github.ref_name }}
+          filename: metrics.dark.svg
+          config_timezone: Africa/Cairo
+          # v3.34 has no theme input, so the dark variants restyle the SVG directly.
+          # Selectors and the colours they replace come from the classic template's
+          # style.css: svg{#777} h1,h2,h3{#0366d6} small{#666}.
+          extras_css: |
+            svg { color: #c9d1d9; }
+            h1, h2, h3 { color: #58a6ff; }
+            small, .field small { color: #8b949e; }
+          base: header, repositories
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_details: percentage
+          plugin_languages_sections: most-used
+
+      - name: Contribution calendar (light)
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          user: Kud0o
+          committer_branch: ${{ github.ref_name }}
+          filename: metrics.calendar.light.svg
+          config_timezone: Africa/Cairo
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+      - name: Contribution calendar (dark)
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          user: Kud0o
+          committer_branch: ${{ github.ref_name }}
+          filename: metrics.calendar.dark.svg
+          config_timezone: Africa/Cairo
+          # v3.34 has no theme input, so the dark variants restyle the SVG directly.
+          # Selectors and the colours they replace come from the classic template's
+          # style.css: svg{#777} h1,h2,h3{#0366d6} small{#666}.
+          extras_css: |
+            svg { color: #c9d1d9; }
+            h1, h2, h3 { color: #58a6ff; }
+            small, .field small { color: #8b949e; }
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year

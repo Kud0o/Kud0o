@@ -1,44 +1,127 @@
-<h1 align="center">Hi , I'm Mahmoud Helmy <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
-<p align="center"><a href="https://github.com/Kud0o/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Software+Engineer;Computer+Science+Graduate;Competitive+Programmer;DS%20|%20Algorithms%20|%20OOP%20;Always%20learning%20new%20things&center=true&width=500&height=50"></a></p>
+<h1 align="center">Hi, I'm Mahmoud Helmy <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 
-<p align="left"><img src="https://komarev.com/ghpvc/?username=kud0o&label=Profile%20views&color=0e75b6&style=flat" alt="kud0o" /> </p>
-
-<p padding="20" ><img align="right" src="https://github.com/Adam-pw/Adam-pw/blob/main/animation_500_kxa883sd.gif" alt="adam-pw" /></br></br></p>
-
- 
-- 🔭 I’m currently working on **E-Invoices Integration with Government System**
-
-- 🌱 I’m currently learning **ReactJS, NodeJS J**
-
-- 💬 Ask me about **Flutter, Dart, Python, C++, Problem Solving**
-
-- 📫 How to reach me [Gmail](mailto:mahmoud98398@gmail.com)
-
-- 📄 Know about my experiences [My Resume](https://drive.google.com/file/d/1VAGJxn8pUv1835NQ8yWxu7qmZi1enr5V/view?usp=sharing).
-
-
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/mahmoud-helmy-52526a145" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="mahmoud-helmy-52526a145" height="30" width="40" /></a>
-<a href="https://codeforces.com/profile/izanagi_0" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="izanagi_0" height="30" width="40" /></a>
+<p align="center">
+  <a href="https://github.com/Kud0o">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=560&height=45&lines=Senior+Software+Engineer;Computer+Science+Graduate;Competitive+Programmer;Mobile+%2B+Backend+%2B+AI+Tooling;Systems+that+ship+and+stay+shipped">
+      <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=0969DA&center=true&vCenter=true&width=560&height=45&lines=Senior+Software+Engineer;Computer+Science+Graduate;Competitive+Programmer;Mobile+%2B+Backend+%2B+AI+Tooling;Systems+that+ship+and+stay+shipped">
+      <img alt="Senior Software Engineer" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=0969DA&center=true&vCenter=true&width=560&height=45&lines=Senior+Software+Engineer;Computer+Science+Graduate;Competitive+Programmer;Mobile+%2B+Backend+%2B+AI+Tooling;Systems+that+ship+and+stay+shipped">
+    </picture>
+  </a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://dart.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> </a> <a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> </p>
- <br/>
- <br/>
- <br/>
+<p align="center">
+  <a href="https://linkedin.com/in/mahmoud-helmy-52526a145"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTExNiAzSDEyYTguOTEgOC45MSAwIDAwLTkgOC44djEwNC40MmE4LjkxIDguOTEgMCAwMDkgOC43OGgxMDRhOC45MyA4LjkzIDAgMDA5LTguODFWMTEuNzdBOC45MyA4LjkzIDAgMDAxMTYgM3pNMzkuMTcgMTA3SDIxLjA2VjQ4LjczaDE4LjExem0tOS02Ni4yMWExMC41IDEwLjUgMCAxMTEwLjQ5LTEwLjUgMTAuNSAxMC41IDAgMDEtMTAuNTQgMTAuNDh6TTEwNyAxMDdIODguODlWNzguNjVjMC02Ljc1LS4xMi0xNS40NC05LjQxLTE1LjQ0cy0xMC44NyA3LjM2LTEwLjg3IDE1VjEwN0g1MC41M1Y0OC43M2gxNy4zNnY4aC4yNGMyLjQyLTQuNTggOC4zMi05LjQxIDE3LjEzLTkuNDFDMTAzLjYgNDcuMjggMTA3IDU5LjM1IDEwNyA3NXoiLz48L3N2Zz4%3D&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://codeforces.com/profile/izanagi_0"><img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=flat-square&logo=codeforces&logoColor=white" alt="Codeforces"></a>
+  <a href="mailto:mahmoud98398@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://drive.google.com/file/d/1VAGJxn8pUv1835NQ8yWxu7qmZi1enr5V/view?usp=sharing"><img src="https://img.shields.io/badge/Resume-2F855A?style=flat-square&logo=readdotcv&logoColor=white" alt="Resume"></a>
+</p>
 
-<p align="center"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=kud0o&theme=algolia&show_icons=true&locale=en&layout=compact" alt="kud0o" /><p align ="center"><b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.</p></p>
- <br/>
- 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=kud0o&label=Profile%20views&color=0e75b6&style=flat-square" alt="Profile views">
+  <a href="https://github.com/Kud0o?tab=followers"><img src="https://img.shields.io/github/followers/Kud0o?style=flat-square&logo=github&label=Followers&labelColor=6e7681&color=0969da" alt="Followers"></a>
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FKud0o&query=public_repos&label=Public%20repos&style=flat-square&logo=github&labelColor=6e7681&color=0969da" alt="Public repos">
+  <img src="https://img.shields.io/badge/Focus-AI%20developer%20tooling-8957e5?style=flat-square" alt="Focus">
+  <img src="https://img.shields.io/badge/Based%20in-Egypt-c9510c?style=flat-square" alt="Location">
+</p>
 
-<p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=kud0o&theme=algolia&show_icons=true&locale=en" alt="kud0o" /></p>
+---
 
-<p align = "center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=kud0o&theme=algolia" alt="kud0o" /></p>
-<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=kud0o&theme=algolia& alt="kud0o" /></a> </p>
-<summary><b>⚡ Recent GitHub Activity</b></summary>
-  <br/>
-   <a href="https://github.com/Kud0o"><img alt="Kud0o's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=Kud0o&custom_title=Kud0o's%20Contribution%20Graph&theme=react-dark" /></a>
-  <br/>
+## About
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/coding-dark.gif">
+  <source media="(prefers-color-scheme: light)" srcset="assets/coding-light.gif">
+  <img align="right" width="300" alt="Developer at a desk" src="assets/coding-light.gif">
+</picture>
+
+Senior Software Engineer with a computer science background and a competitive programming habit. I work across mobile (Flutter/Dart), backend and enterprise integration (.NET, C#, MSSQL), and Python — and I spend most of my side-project time building developer tooling for AI coding agents.
+
+- 🔭 **Currently building** — developer tooling for AI coding agents: usage/cost instrumentation and multi-agent delegation workflows.
+- 🏛️ **Shipped** — E-Invoices integration with a government tax system: document signing, submission, retry/backoff, and reconciliation against a third-party API.
+- 💬 **Ask me about** — Flutter & Dart architecture, .NET backends, API integration, algorithms and problem solving.
+- 🧩 **Competitive programming** — Codeforces as [`izanagi_0`](https://codeforces.com/profile/izanagi_0); data structures, algorithms, OOP.
+- ⚡ **Interested in** — agentic developer tooling, performance work, and clean domain modeling.
+- 📫 **Reach me** — [mahmoud98398@gmail.com](mailto:mahmoud98398@gmail.com) · [Resume](https://drive.google.com/file/d/1VAGJxn8pUv1835NQ8yWxu7qmZi1enr5V/view?usp=sharing)
+
+---
+
+## Selected work
+
+| Project | What it is | Stack |
+|---|---|---|
+| [ai-usage-inspector](https://github.com/Kud0o/ai-usage-inspector) | Zero-dependency Claude Code hook that records every prompt and tracks token usage and cost | JavaScript |
+| [delegation-management](https://github.com/Kud0o/delegation-management) | Claude Code skill that coordinates two local coding agents over one task queue | Python |
+| [Notes](https://github.com/Kud0o/Notes) | Notes app with nested sections and selective PDF export | Flutter · Dart |
+| [Mobile-Prediction_ML](https://github.com/Kud0o/Mobile-Prediction_ML) | Mobile app success prediction from store metadata | Python · pandas |
+| [Graphical-Geometry-Algorithms](https://github.com/Kud0o/Graphical-Geometry-Algorithms) | Points, lines, polygons and their intersections, with a visual front end | C# |
+| [Cores-Parallel-Processing-KMeans](https://github.com/Kud0o/Cores-Parallel-Processing-KMeans) | K-Means clustering parallelised across cores | Python |
+| [Qr-Code-Detection-Matlab](https://github.com/Kud0o/Qr-Code-Detection-Matlab) | QR detection, clipping, rotation and cropping from images | MATLAB · OpenCV |
+| [Search_Engine](https://github.com/Kud0o/Search_Engine) | Indexing and ranked retrieval engine | C++ |
+
+---
+
+## Tech
+
+**Languages**
+
+<p>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg" alt="Dart" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="C#" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matlab/matlab-original.svg" alt="MATLAB" width="40" height="40"/>
+</p>
+
+**Frameworks & platforms**
+
+<p>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg" alt="Flutter" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dotnetcore/dotnetcore-original.svg" alt=".NET" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original.svg" alt="Android" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angular/angular-original.svg" alt="Angular" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="Node.js" width="40" height="40"/>&nbsp;
+  <img src="assets/outsystems.svg" alt="OutSystems" width="40" height="40"/>
+</p>
+
+**Data & infrastructure**
+
+<p>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" alt="MSSQL" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg" alt="Firebase" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" alt="OpenCV" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-original.svg" alt="Postman" width="40" height="40"/>
+</p>
+
+---
+
+## GitHub
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="metrics.dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="metrics.light.svg">
+    <img alt="GitHub metrics" src="metrics.light.svg" width="100%">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="metrics.calendar.dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="metrics.calendar.light.svg">
+    <img alt="Contribution calendar" src="metrics.calendar.light.svg" width="100%">
+  </picture>
+</p>
+
+<!--
+  These SVGs are generated by .github/workflows/metrics.yml and committed into this
+  repository, so they are served from GitHub itself and cannot break when a third-party
+  card service runs out of quota. Regenerated daily; run the workflow manually from the
+  Actions tab to refresh on demand.
+-->
+
+<p align="center"><sub>Language metrics reflect the languages in my public code, not experience or skill level.</sub></p>
