@@ -63,10 +63,6 @@ jobs:
           filename: metrics.calendar.light.svg
           config_timezone: Africa/Cairo
           config_display: large
-          # the isometric plane is a diagonal in a rectangle: it leaves two empty
-          # corners and duplicates the snake. Keep the streak numbers, drop the art.
-          extras_css: |
-            section > svg[version="1.1"] { display: none; }
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
@@ -87,7 +83,6 @@ jobs:
             svg { color: #c9d1d9; }
             h1, h2, h3 { color: #58a6ff; }
             small, .field small { color: #8b949e; }
-            section > svg[version="1.1"] { display: none; }
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
