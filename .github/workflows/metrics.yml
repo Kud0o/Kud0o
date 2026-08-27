@@ -9,7 +9,7 @@ on:
     - cron: "0 3 * * *"      # daily, 03:00 UTC
   workflow_dispatch:          # run on demand from the Actions tab
   push:
-    branches: [main, test-metrics]   # TODO: drop test-metrics before merging
+    branches: [main]
 
 permissions:
   contents: write
