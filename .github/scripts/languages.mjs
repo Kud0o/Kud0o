@@ -106,7 +106,7 @@ for (const slice of slices) {
   console.log(`  ${slice.name.padEnd(14)} ${percent(slice.size).toFixed(2).padStart(6)}%`);
 }
 
-function render({ mode, text, muted, background, border }) {
+function render({ mode, text, muted, background }) {
   const hue = (slice) => (slice.slot === -1 ? OTHER[mode] : SLOTS[mode][slice.slot]);
 
   const pad = 16;
@@ -146,7 +146,7 @@ function render({ mode, text, muted, background, border }) {
   const height = legendY + rows * rowH + 6;
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${WIDTH}" height="${height}" viewBox="0 0 ${WIDTH} ${height}" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-label="Most used languages across ${repositories.totalCount} public repositories: ${slices.map((s) => `${s.name} ${percent(s.size).toFixed(1)} percent`).join(", ")}">
-  <rect x="0.5" y="0.5" width="${WIDTH - 1}" height="${height - 1}" rx="6" fill="${background}" stroke="${border}"/>
+  <rect width="${WIDTH}" height="${height}" fill="${background}"/>
   <text x="${pad}" y="28" fill="${text}" font-size="14" font-weight="600">Most used languages</text>
   <text x="${pad}" y="45" fill="${muted}" font-size="11">across ${repositories.totalCount} public repositories</text>
   <clipPath id="round"><rect x="${pad}" y="${barY}" width="${barW}" height="${barH}" rx="4"/></clipPath>
@@ -157,6 +157,6 @@ function render({ mode, text, muted, background, border }) {
 }
 
 const { writeFileSync } = await import("node:fs");
-writeFileSync("languages.light.svg", render({ mode: "light", text: "#1f2328", muted: "#59636e", background: "#ffffff", border: "#d1d9e0" }));
-writeFileSync("languages.dark.svg", render({ mode: "dark", text: "#e6edf3", muted: "#8b949e", background: "#0d1117", border: "#3d444d" }));
+writeFileSync("languages.light.svg", render({ mode: "light", text: "#1f2328", muted: "#59636e", background: "#ffffff" }));
+writeFileSync("languages.dark.svg", render({ mode: "dark", text: "#e6edf3", muted: "#8b949e", background: "#0d1117" }));
 console.log("wrote languages.light.svg and languages.dark.svg");

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="480" height="194" viewBox="0 0 480 194" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-label="Most used languages across 26 public repositories: Python 53.9 percent, C# 35.5 percent, JavaScript 6.3 percent, Dart 1.4 percent, CSS 1.0 percent, C 0.9 percent, HTML 0.5 percent, Kotlin 0.2 percent, Other 0.2 percent">
-  <rect x="0.5" y="0.5" width="479" height="193" rx="6" fill="#0d1117" stroke="#3d444d"/>
+  <rect width="480" height="194" fill="#0d1117"/>
   <text x="16" y="28" fill="#e6edf3" font-size="14" font-weight="600">Most used languages</text>
   <text x="16" y="45" fill="#8b949e" font-size="11">across 26 public repositories</text>
   <clipPath id="round"><rect x="16" y="56" width="448" height="8" rx="4"/></clipPath>
