@@ -19,7 +19,6 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=kud0o&label=Profile%20views&color=0969da&style=flat-square" alt="Profile views">
-  <a href="https://github.com/Kud0o?tab=followers"><img src="https://img.shields.io/github/followers/Kud0o?style=flat-square&logo=github&label=Followers&labelColor=6e7681&color=0969da" alt="Followers"></a>
   <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FKud0o&query=public_repos&label=Public%20repos&style=flat-square&logo=github&labelColor=6e7681&color=0969da" alt="Public repos">
   <img src="https://img.shields.io/badge/Focus-AI%20developer%20tooling-0969da?style=flat-square&labelColor=6e7681" alt="Focus">
   <img src="https://img.shields.io/badge/Based%20in-Egypt-0969da?style=flat-square&labelColor=6e7681" alt="Location">
@@ -42,7 +41,7 @@ Senior Software Engineer with a computer science background and a competitive pr
 - 💬 **Ask me about** — Flutter & Dart architecture, .NET backends, API integration, algorithms and problem solving.
 - 🧩 **Competitive programming** — Codeforces as [`izanagi_0`](https://codeforces.com/profile/izanagi_0); data structures, algorithms, OOP.
 - ⚡ **Interested in** — agentic developer tooling, performance work, and clean domain modeling.
-- 📫 **Reach me** — [mahmoud98398@gmail.com](mailto:mahmoud98398@gmail.com) · [Resume](https://drive.google.com/file/d/1VAGJxn8pUv1835NQ8yWxu7qmZi1enr5V/view?usp=sharing)
+- 📫 **Reach me** — [Mail](mailto:mahmoud98398@gmail.com) · [Resume](https://drive.google.com/file/d/1VAGJxn8pUv1835NQ8yWxu7qmZi1enr5V/view?usp=sharing)
 
 ---
 
