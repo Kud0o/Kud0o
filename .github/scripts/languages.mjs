@@ -39,7 +39,7 @@ function assignSlots(names) {
   return out;
 }
 
-const WIDTH = 480;
+const WIDTH = 960;   // matches metrics' `large` display
 
 if (!TOKEN) {
   console.error("GITHUB_TOKEN is required");
@@ -131,22 +131,22 @@ function render({ mode, text, muted, background }) {
     return rect;
   }).join("");
 
-  const colW = barW / 2;
+  const COLS = 3;
+  const colW = barW / COLS;
   const rowH = 20;
   const legendY = barY + barH + 24;
   const legend = slices.map((slice, i) => {
-    const lx = pad + (i % 2) * colW;
-    const ly = legendY + Math.floor(i / 2) * rowH;
+    const lx = pad + (i % COLS) * colW;
+    const ly = legendY + Math.floor(i / COLS) * rowH;
     return `<circle cx="${lx + 5}" cy="${ly - 4}" r="4.5" fill="${hue(slice)}"/>` +
       `<text x="${lx + 17}" y="${ly}" fill="${text}" font-size="12">${escape(slice.name)}</text>` +
       `<text x="${lx + colW - 40}" y="${ly}" fill="${muted}" font-size="12">${percent(slice.size).toFixed(1)}%</text>`;
   }).join("");
 
-  const rows = Math.ceil(slices.length / 2);
+  const rows = Math.ceil(slices.length / COLS);
   const height = legendY + rows * rowH + 6;
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${WIDTH}" height="${height}" viewBox="0 0 ${WIDTH} ${height}" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-label="Most used languages across ${repositories.totalCount} public repositories: ${slices.map((s) => `${s.name} ${percent(s.size).toFixed(1)} percent`).join(", ")}">
-  <rect width="${WIDTH}" height="${height}" fill="${background}"/>
   <text x="${pad}" y="28" fill="${text}" font-size="14" font-weight="600">Most used languages</text>
   <text x="${pad}" y="45" fill="${muted}" font-size="11">across ${repositories.totalCount} public repositories</text>
   <clipPath id="round"><rect x="${pad}" y="${barY}" width="${barW}" height="${barH}" rx="4"/></clipPath>
