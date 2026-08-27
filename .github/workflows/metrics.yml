@@ -65,7 +65,7 @@ jobs:
           config_display: large
           base: ""
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          plugin_isocalendar_duration: half-year
 
       - name: Contribution calendar (dark)
         uses: lowlighter/metrics@v3.34
@@ -85,7 +85,7 @@ jobs:
             small, .field small { color: #8b949e; }
           base: ""
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          plugin_isocalendar_duration: half-year
 
   languages:
     runs-on: ubuntu-latest
