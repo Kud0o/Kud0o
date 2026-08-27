@@ -111,6 +111,14 @@ Senior Software Engineer with a computer science background and a competitive pr
 
 <p align="center">
   <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="languages.dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="languages.light.svg">
+    <img alt="Most used languages" src="languages.light.svg" width="100%">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
     <source media="(prefers-color-scheme: dark)" srcset="metrics.calendar.dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="metrics.calendar.light.svg">
     <img alt="Contribution calendar" src="metrics.calendar.light.svg" width="100%">

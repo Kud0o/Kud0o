@@ -77,3 +77,30 @@ jobs:
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+
+  languages:
+    runs-on: ubuntu-latest
+    needs: metrics          # serialise: both jobs commit to the same branch
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Build language cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          METRICS_USER: Kud0o
+        run: node .github/scripts/languages.mjs
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- languages.light.svg languages.dark.svg; then
+            echo "No language changes"
+            exit 0
+          fi
+          git add languages.light.svg languages.dark.svg
+          git commit -m "Update language cards [skip ci]"
+          git pull --rebase origin ${{ github.ref_name }}
+          git push origin HEAD:${{ github.ref_name }}
